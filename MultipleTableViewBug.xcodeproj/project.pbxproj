@@ -12,7 +12,37 @@
 		E440B3CA21914FB9007B10BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E440B3C821914FB9007B10BA /* Main.storyboard */; };
 		E440B3CC21914FBC007B10BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E440B3CB21914FBC007B10BA /* Assets.xcassets */; };
 		E440B3CF21914FBC007B10BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E440B3CD21914FBC007B10BA /* LaunchScreen.storyboard */; };
+		E440B3E221918B64007B10BA /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B3D621918B61007B10BA /* PostCell.swift */; };
+		E440B3E321918B64007B10BA /* PostTableCellView.xml in Resources */ = {isa = PBXBuildFile; fileRef = E440B3D721918B61007B10BA /* PostTableCellView.xml */; };
+		E440B3E421918B64007B10BA /* PostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B3D821918B61007B10BA /* PostTableViewController.swift */; };
+		E440B3E621918B64007B10BA /* Sample.xml in Resources */ = {isa = PBXBuildFile; fileRef = E440B3DA21918B62007B10BA /* Sample.xml */; };
+		E440B3E721918B64007B10BA /* Table.xml in Resources */ = {isa = PBXBuildFile; fileRef = E440B3DB21918B62007B10BA /* Table.xml */; };
+		E440B3E821918B64007B10BA /* TableCellView.xml in Resources */ = {isa = PBXBuildFile; fileRef = E440B3DC21918B62007B10BA /* TableCellView.xml */; };
+		E440B3E921918B64007B10BA /* PostTable.xml in Resources */ = {isa = PBXBuildFile; fileRef = E440B3DD21918B63007B10BA /* PostTable.xml */; };
+		E440B3EB21918B64007B10BA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B3DF21918B63007B10BA /* TableViewController.swift */; };
+		E440B3EC21918B64007B10BA /* StyleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B3E021918B63007B10BA /* StyleCell.swift */; };
+		E440B3ED21918B64007B10BA /* ExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E440B3E121918B64007B10BA /* ExamplesViewController.swift */; };
+		E440B3EF21919F6A007B10BA /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = E440B3EE21919F6A007B10BA /* Cartfile */; };
+		E440B3F22191A4D5007B10BA /* Nuke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E440B3F02191A4D5007B10BA /* Nuke.framework */; };
+		E440B3F32191A4D5007B10BA /* Nuke.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E440B3F02191A4D5007B10BA /* Nuke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E440B3F42191A4D5007B10BA /* Layout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E440B3F12191A4D5007B10BA /* Layout.framework */; };
+		E440B3F52191A4D5007B10BA /* Layout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E440B3F12191A4D5007B10BA /* Layout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E440B3F62191A4D5007B10BA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E440B3F52191A4D5007B10BA /* Layout.framework in Embed Frameworks */,
+				E440B3F32191A4D5007B10BA /* Nuke.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E440B3C121914FB8007B10BA /* MultipleTableViewBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleTableViewBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +52,19 @@
 		E440B3CB21914FBC007B10BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E440B3CE21914FBC007B10BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E440B3D021914FBC007B10BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E440B3D621918B61007B10BA /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		E440B3D721918B61007B10BA /* PostTableCellView.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PostTableCellView.xml; sourceTree = "<group>"; };
+		E440B3D821918B61007B10BA /* PostTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewController.swift; sourceTree = "<group>"; };
+		E440B3DA21918B62007B10BA /* Sample.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Sample.xml; sourceTree = "<group>"; };
+		E440B3DB21918B62007B10BA /* Table.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Table.xml; sourceTree = "<group>"; };
+		E440B3DC21918B62007B10BA /* TableCellView.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TableCellView.xml; sourceTree = "<group>"; };
+		E440B3DD21918B63007B10BA /* PostTable.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PostTable.xml; sourceTree = "<group>"; };
+		E440B3DF21918B63007B10BA /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E440B3E021918B63007B10BA /* StyleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleCell.swift; sourceTree = "<group>"; };
+		E440B3E121918B64007B10BA /* ExamplesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExamplesViewController.swift; sourceTree = "<group>"; };
+		E440B3EE21919F6A007B10BA /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		E440B3F02191A4D5007B10BA /* Nuke.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nuke.framework; path = Carthage/Build/iOS/Nuke.framework; sourceTree = "<group>"; };
+		E440B3F12191A4D5007B10BA /* Layout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Layout.framework; path = Carthage/Build/iOS/Layout.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E440B3F42191A4D5007B10BA /* Layout.framework in Frameworks */,
+				E440B3F22191A4D5007B10BA /* Nuke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +83,9 @@
 		E440B3B821914FB8007B10BA = {
 			isa = PBXGroup;
 			children = (
+				E440B3F12191A4D5007B10BA /* Layout.framework */,
+				E440B3F02191A4D5007B10BA /* Nuke.framework */,
+				E440B3EE21919F6A007B10BA /* Cartfile */,
 				E440B3C321914FB8007B10BA /* MultipleTableViewBug */,
 				E440B3C221914FB8007B10BA /* Products */,
 			);
@@ -55,7 +103,17 @@
 			isa = PBXGroup;
 			children = (
 				E440B3C421914FB9007B10BA /* AppDelegate.swift */,
+				E440B3DF21918B63007B10BA /* TableViewController.swift */,
 				E440B3C621914FB9007B10BA /* ViewController.swift */,
+				E440B3E121918B64007B10BA /* ExamplesViewController.swift */,
+				E440B3D621918B61007B10BA /* PostCell.swift */,
+				E440B3DD21918B63007B10BA /* PostTable.xml */,
+				E440B3D721918B61007B10BA /* PostTableCellView.xml */,
+				E440B3D821918B61007B10BA /* PostTableViewController.swift */,
+				E440B3DA21918B62007B10BA /* Sample.xml */,
+				E440B3E021918B63007B10BA /* StyleCell.swift */,
+				E440B3DB21918B62007B10BA /* Table.xml */,
+				E440B3DC21918B62007B10BA /* TableCellView.xml */,
 				E440B3C821914FB9007B10BA /* Main.storyboard */,
 				E440B3CB21914FBC007B10BA /* Assets.xcassets */,
 				E440B3CD21914FBC007B10BA /* LaunchScreen.storyboard */,
@@ -74,6 +132,7 @@
 				E440B3BD21914FB8007B10BA /* Sources */,
 				E440B3BE21914FB8007B10BA /* Frameworks */,
 				E440B3BF21914FB8007B10BA /* Resources */,
+				E440B3F62191A4D5007B10BA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -121,8 +180,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E440B3EF21919F6A007B10BA /* Cartfile in Resources */,
+				E440B3E721918B64007B10BA /* Table.xml in Resources */,
 				E440B3CF21914FBC007B10BA /* LaunchScreen.storyboard in Resources */,
+				E440B3E921918B64007B10BA /* PostTable.xml in Resources */,
+				E440B3E321918B64007B10BA /* PostTableCellView.xml in Resources */,
+				E440B3E821918B64007B10BA /* TableCellView.xml in Resources */,
 				E440B3CC21914FBC007B10BA /* Assets.xcassets in Resources */,
+				E440B3E621918B64007B10BA /* Sample.xml in Resources */,
 				E440B3CA21914FB9007B10BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,8 +199,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E440B3EB21918B64007B10BA /* TableViewController.swift in Sources */,
 				E440B3C721914FB9007B10BA /* ViewController.swift in Sources */,
+				E440B3EC21918B64007B10BA /* StyleCell.swift in Sources */,
+				E440B3ED21918B64007B10BA /* ExamplesViewController.swift in Sources */,
+				E440B3E421918B64007B10BA /* PostTableViewController.swift in Sources */,
 				E440B3C521914FB9007B10BA /* AppDelegate.swift in Sources */,
+				E440B3E221918B64007B10BA /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +352,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MultipleTableViewBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,6 +373,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MultipleTableViewBug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

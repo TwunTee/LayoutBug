@@ -1,0 +1,19 @@
+<StyleCell
+        reuseIdentifier="standaloneCell"
+        backgroundColor="clear"
+
+        height="auto"
+>
+
+        <UIImageView
+                layer.cornerRadius="2"
+                layer.maskedCorners="layerMaxXMinYCorner,layerMinXMinYCorner"
+                clipsToBounds="true"
+                imgUrl="random{row}"
+                id="styleImage"
+        
+                width="100%"
+                contentMode="scaleAspectFit"
+                height="width"/>
+</StyleCell>
+

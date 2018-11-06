@@ -1,0 +1,22 @@
+<PostCell
+
+backgroundColor="clear"
+ 
+        height="300"
+        reuseIdentifier="standCell"
+
+>
+    
+
+        <UIImageView
+        layer.cornerRadius="2"
+        layer.maskedCorners="layerMaxXMinYCorner,layerMinXMinYCorner"
+        clipsToBounds="true"
+        imgUrl="random{row}"
+        id="styleImage"
+  
+        width="100%"
+        contentMode="scaleAspectFit"
+        height="300"/>
+
+</PostCell>

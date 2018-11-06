@@ -1,9 +1,4 @@
-//
-//  ViewController.swift
-//  MultipleTableViewBug
-//
-//  Created by Mukesh Murali on 06/11/18.
-//
+
 
 import UIKit
 

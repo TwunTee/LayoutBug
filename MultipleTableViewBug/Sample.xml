@@ -1,0 +1,15 @@
+<UITabBarController view.backgroundColor="white">
+    <UITabBar tintColor="#77f"/>
+
+
+    <!-- Table -->
+    <UIViewController
+        title="Table"
+        xml="Table.xml"
+    />
+    <UIViewController
+        title="Posts"
+        xml="PostTable.xml"
+    />
+
+</UITabBarController>

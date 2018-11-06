@@ -1,0 +1,14 @@
+<PostTableViewController view.backgroundColor="white">
+    <UITableView
+        
+            separatorStyle="none"
+            backgroundColor="#EEEEEE"
+            outlet="tableView"
+            allowsSelection="false"
+        
+            style="plain">
+    
+        
+    </UITableView>
+   
+</PostTableViewController>
